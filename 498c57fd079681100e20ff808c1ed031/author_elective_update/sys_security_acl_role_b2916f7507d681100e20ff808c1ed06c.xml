@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 18:59:23</sys_created_on>
+        <sys_id>b2916f7507d681100e20ff808c1ed06c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_775271_aeroflos_bike_spares.x_775271_aeroflos.automobile specialist</sys_name>
+        <sys_package display_value="AeroFlow automobiles" source="x_775271_aeroflos">498c57fd079681100e20ff808c1ed031</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</sys_scope>
+        <sys_security_acl display_value="x_775271_aeroflos_bike_spares">7a916f7507d681100e20ff808c1ed069</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_b2916f7507d681100e20ff808c1ed06c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 18:59:23</sys_updated_on>
+        <sys_user_role display_value="x_775271_aeroflos.automobile specialist" name="x_775271_aeroflos.automobile specialist">d1bddbb107d681100e20ff808c1ed012</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</application>
+        <file_path/>
+        <instance_id>c15368a9db2720109a4dcac505961952</instance_id>
+        <instance_name>dev111897</instance_name>
+        <name>sys_security_acl_role_b2916f7507d681100e20ff808c1ed06c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-18 18:59:23</sys_created_on><sys_id>b2916f7507d681100e20ff808c1ed06c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_775271_aeroflos_bike_spares.x_775271_aeroflos.automobile specialist</sys_name><sys_package display_value="AeroFlow automobiles" source="x_775271_aeroflos">498c57fd079681100e20ff808c1ed031</sys_package><sys_policy/><sys_scope display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</sys_scope><sys_security_acl display_value="x_775271_aeroflos_bike_spares">7a916f7507d681100e20ff808c1ed069</sys_security_acl><sys_update_name>sys_security_acl_role_b2916f7507d681100e20ff808c1ed06c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-18 18:59:23</sys_updated_on><sys_user_role display_value="x_775271_aeroflos.automobile specialist" name="x_775271_aeroflos.automobile specialist">d1bddbb107d681100e20ff808c1ed012</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1637154813</payload_hash>
+        <record_name>x_775271_aeroflos_bike_spares.x_775271_aeroflos.automobile specialist</record_name>
+        <reverted_from/>
+        <source>858c57fd079681100e20ff808c1ed033</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 18:59:24</sys_created_on>
+        <sys_id>3e916f7507d681100e20ff808c1ed06e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f9e6613040000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 18:59:24</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>76916f7550d68110bd7b7d757f62646e</update_guid>
+        <update_guid_history>76916f7550d68110bd7b7d757f62646e:1637154813</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_775271_aeroflos_bike_spares.x_775271_aeroflos.automobile specialist">64760a8207de81100e20ff808c1ed08a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-19 06:59:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>4323e30f738f43f1a114ceeb4cb90841</sys_id>
+        <sys_metadata>b2916f7507d681100e20ff808c1ed06c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_775271_aeroflos_bike_spares.x_775271_aeroflos.automobile specialist</sys_name>
+        <sys_package display_value="AeroFlow automobiles" source="x_775271_aeroflos">498c57fd079681100e20ff808c1ed031</sys_package>
+        <sys_parent display_value="">7a916f7507d681100e20ff808c1ed069</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</sys_scope>
+        <sys_scope_delete display_value="">27e8e30ea2024cccaefb46a3b6417a39</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_b2916f7507d681100e20ff808c1ed06c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_b2916f7507d681100e20ff808c1ed06c">3e916f7507d681100e20ff808c1ed06e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-19 06:59:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

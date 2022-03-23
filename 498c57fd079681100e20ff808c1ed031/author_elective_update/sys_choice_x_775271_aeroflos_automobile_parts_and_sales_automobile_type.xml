@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="automobile_type" table="x_775271_aeroflos_automobile_parts_and_sales" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>automobile_type</element>
+            <name>x_775271_aeroflos_automobile_parts_and_sales</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 19:23:05</sys_created_on>
+            <sys_id>a507af7507d681100e20ff808c1ed01c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>automobile_type</sys_name>
+            <sys_package display_value="AeroFlow automobiles" source="x_775271_aeroflos">498c57fd079681100e20ff808c1ed031</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</sys_scope>
+            <sys_update_name>sys_choice_x_775271_aeroflos_automobile_parts_and_sales_automobile_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 19:23:05</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>automobile_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Two-Wheeler</label>
+            <language>en</language>
+            <name>x_775271_aeroflos_automobile_parts_and_sales</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 19:23:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d07af7507d681100e20ff808c1ed01b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 19:23:05</sys_updated_on>
+            <value>Two-Wheeler</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>automobile_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hi-End bikes</label>
+            <language>en</language>
+            <name>x_775271_aeroflos_automobile_parts_and_sales</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 19:23:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b507af7507d681100e20ff808c1ed01d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 19:23:05</sys_updated_on>
+            <value>Hi-End bikes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>automobile_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Four-Wheeler</label>
+            <language>en</language>
+            <name>x_775271_aeroflos_automobile_parts_and_sales</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 19:23:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>790723b907d681100e20ff808c1ed031</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 19:23:05</sys_updated_on>
+            <value>Four-Wheeler</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
