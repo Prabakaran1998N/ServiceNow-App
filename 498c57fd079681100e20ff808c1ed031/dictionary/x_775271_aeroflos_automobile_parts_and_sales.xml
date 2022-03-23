@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Automobile parts and sales" max_length="40" name="x_775271_aeroflos_automobile_parts_and_sales" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Automobile Type" max_length="40" name="automobile_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Two-Wheeler" sequence="0" value="Two-Wheeler"/>
+                <element inactive_on_update="false" label="Hi-End bikes" sequence="1" value="Hi-End bikes"/>
+                <element inactive_on_update="false" label="Four-Wheeler" sequence="2" value="Four-Wheeler"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Brand" max_length="40" name="brand" type="string">
+            <choice>
+                <element inactive_on_update="false" label="BMW" sequence="0" value="BMW"/>
+                <element inactive="true" inactive_on_update="true" label="SKODA" sequence="0" value="SKODA"/>
+                <element inactive_on_update="false" label="CHEVROLET" sequence="1" value="CHEVROLET"/>
+                <element inactive="true" inactive_on_update="true" label="TATA" sequence="1" value="TATA"/>
+                <element inactive_on_update="false" label="FIAT" sequence="2" value="FIAT"/>
+                <element inactive="true" inactive_on_update="true" label="TOYOTA" sequence="2" value="TOYOTA"/>
+                <element inactive_on_update="false" label="FORD" sequence="3" value="FORD"/>
+                <element inactive="true" inactive_on_update="true" label="vw" sequence="3" value="vw"/>
+                <element inactive_on_update="false" label="HONDA" sequence="4" value="HONDA"/>
+                <element inactive_on_update="false" label="HYUNDAI" sequence="5" value="HYUNDAI"/>
+                <element inactive_on_update="false" label="KIA" sequence="6" value="KIA"/>
+                <element inactive_on_update="false" label="MAHINDRA" sequence="7" value="MAHINDRA"/>
+                <element inactive_on_update="false" label="MARUTI" sequence="8" value="MARUTI"/>
+                <element inactive_on_update="false" label="MERCEDES-BENZ" sequence="9" value="MERCEDES-BENZ"/>
+                <element inactive_on_update="false" label="NISSAN" sequence="10" value="NISSAN"/>
+                <element inactive_on_update="false" label="RENAULT" sequence="11" value="RENAULT"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Car Model" max_length="40" name="car_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Name:" mandatory="true" max_length="40" name="customer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer phone no:" mandatory="true" max_length="40" name="customer_phone_no" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="service_parts" dependent_on_field="service_parts" label="Item" max_length="40" name="item" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="CABIN AIR FILTER" sequence="0" value="CABIN AIR FILTER"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="AIR FILTER" sequence="1" value="AIR FILTER"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="OIL FILTER" sequence="2" value="OIL FILTER"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="FUEL FILTER" sequence="3" value="FUEL FILTER"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="FUEL FILTER V" sequence="4" value="FUEL FILTER V"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="AIR FILTER V" sequence="5" value="AIR FILTER V"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="GLOW PLUG" sequence="6" value="GLOW PLUG"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="HEADLAMP ASSENBLY" sequence="7" value="HEADLAMP ASSENBLY"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="REAR COMBINATION LAMB" sequence="8" value="REAR COMBINATION LAMB"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="FOG LAMP FRONT" sequence="9" value="FOG LAMP FRONT"/>
+                <element dependent_value="MAINTENANCE SERVICE PARTS" inactive_on_update="false" label="CLUTCH KIT" sequence="10" value="CLUTCH KIT"/>
+                <element dependent_value="AIR CONDITIONING" inactive_on_update="false" label="V-RIBBON BELT" sequence="12" value="V-RIBBON BELT"/>
+                <element dependent_value="AIR CONDITIONING" inactive_on_update="false" label="CABIN AIR FILTER E" sequence="13" value="CABIN AIR FILTER E"/>
+                <element dependent_value="BELT CHAIN AND ROLLERS" inactive_on_update="false" label="TIMING BELT" sequence="15" value="TIMING BELT"/>
+                <element dependent_value="BELT CHAIN AND ROLLERS" inactive_on_update="false" label="TENSION, TIMING BELT" sequence="16" value="TENSION, TIMING BELT"/>
+                <element dependent_value="BELT CHAIN AND ROLLERS" inactive_on_update="false" label="IDLE PULLEY, V-RIBBONED BELT" sequence="17" value="IDLE PULLEY, V-RIBBONED BELT"/>
+                <element dependent_value="BODY" inactive_on_update="false" label="SIDE MARKES LIGHT SEAL" sequence="19" value="SIDE MARKES LIGHT SEAL"/>
+                <element dependent_value="BODY" inactive_on_update="false" label="TAILGATE GAS SPRING" sequence="20" value="TAILGATE GAS SPRING"/>
+                <element dependent_value="BODY" inactive_on_update="false" label="MOULDING, WINDS FILESD" sequence="21" value="MOULDING, WINDS FILESD"/>
+                <element dependent_value="BODY" inactive_on_update="false" label="BONNET GAS SPRING" sequence="23" value="BONNET GAS SPRING"/>
+                <element dependent_value="BODY" inactive_on_update="false" label="SIDE REAR VIEW MIRROR" sequence="24" value="SIDE REAR VIEW MIRROR"/>
+                <element dependent_value="BODY" inactive_on_update="false" label="DOOR HANDLE" sequence="25" value="DOOR HANDLE"/>
+                <element dependent_value="BODY" inactive_on_update="false" label="BUMPER PROECTOR" sequence="26" value="BUMPER PROECTOR"/>
+                <element inactive_on_update="false" label="SIDE DOOR BEADING" sequence="27" value="SIDE DOOR BEADING"/>
+                <element dependent_value="BODY" inactive_on_update="false" label="WWEATHER STRIP INNER" sequence="28" value="WWEATHER STRIP INNER"/>
+                <element inactive_on_update="false" label="BONNET CABLE" sequence="29" value="BONNET CABLE"/>
+                <element dependent_value="BRAKE SYSTEM" inactive_on_update="false" label="REAR BRAKE SHOE SET" sequence="30" value="REAR BRAKE SHOE SET"/>
+                <element dependent_value="BRAKE SYSTEM" inactive_on_update="false" label="FRONT BRAKE PAD SET" sequence="31" value="FRONT BRAKE PAD SET"/>
+                <element dependent_value="BRAKE SYSTEM" inactive_on_update="false" label="WHEEL BRAKE CYLINDER" sequence="32" value="WHEEL BRAKE CYLINDER"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="brand" dependent_on_field="brand" label="Model" max_length="40" name="model" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="BMW" inactive_on_update="false" label="1 SERIES" sequence="0" value="1 SERIES"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="3 SERIES" sequence="1" value="3 SERIES"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="4 SERIES" sequence="2" value="4 SERIES"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="5 SERIES" sequence="3" value="5 SERIES"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="6 SERIES" sequence="4" value="6 SERIES"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="7 SERIES" sequence="5" value="7 SERIES"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="I8" sequence="6" value="I8"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="X1" sequence="7" value="X1"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="X3" sequence="8" value="X3"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="X5" sequence="9" value="X5"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="X6" sequence="10" value="X6"/>
+                <element dependent_value="BMW" inactive_on_update="false" label="Z4" sequence="11" value="Z4"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="AVEO" sequence="12" value="AVEO"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="BEAT" sequence="13" value="BEAT"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="CAPTIVA" sequence="14" value="CAPTIVA"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="CRUZE" sequence="15" value="CRUZE"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="ENJOY" sequence="16" value="ENJOY"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="FORESTER" sequence="17" value="FORESTER"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="OPTRA" sequence="18" value="OPTRA"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="SAIL" sequence="19" value="SAIL"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="SPARK" sequence="20" value="SPARK"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="TAVERA" sequence="21" value="TAVERA"/>
+                <element dependent_value="CHEVROLET" inactive_on_update="false" label="TRAIL BLAZER" sequence="22" value="TRAIL BLAZER"/>
+                <element dependent_value="FIAT" inactive_on_update="false" label="ABARTH" sequence="23" value="ABARTH"/>
+                <element dependent_value="FIAT" inactive_on_update="false" label="AVENTURA" sequence="24" value="AVENTURA"/>
+                <element dependent_value="FIAT" inactive_on_update="false" label="LINEA" sequence="25" value="LINEA"/>
+                <element inactive_on_update="false" label="PALIO" sequence="26" value="PALIO"/>
+                <element dependent_value="FIAT" inactive_on_update="false" label="PETRA" sequence="27" value="PETRA"/>
+                <element dependent_value="FIAT" inactive_on_update="false" label="PUNTO" sequence="28" value="PUNTO"/>
+                <element dependent_value="FIAT" inactive_on_update="false" label="SIENA" sequence="29" value="SIENA"/>
+                <element dependent_value="FIAT" inactive_on_update="false" label="UNO" sequence="30" value="UNO"/>
+                <element dependent_value="FORD" inactive_on_update="false" label="ECOSPORT" sequence="31" value="ECOSPORT"/>
+                <element dependent_value="FORD" inactive_on_update="false" label="ENDEAVOUR" sequence="32" value="ENDEAVOUR"/>
+                <element dependent_value="FORD" inactive_on_update="false" label="FIESTA" sequence="33" value="FIESTA"/>
+                <element inactive_on_update="false" label="FIGO" sequence="34" value="FIGO"/>
+                <element dependent_value="FORD" inactive_on_update="false" label="FREESTYLE" sequence="35" value="FREESTYLE"/>
+                <element dependent_value="FORD" inactive_on_update="false" label="FUSION" sequence="36" value="FUSION"/>
+                <element inactive_on_update="false" label="IKON" sequence="37" value="IKON"/>
+                <element inactive_on_update="false" label="MONDEO" sequence="38" value="MONDEO"/>
+                <element dependent_value="FORD" inactive_on_update="false" label="MUSTANG" sequence="39" value="MUSTANG"/>
+                <element dependent_value="HONDA" inactive_on_update="false" label="ACCORD" sequence="40" value="ACCORD"/>
+                <element dependent_value="HONDA" inactive_on_update="false" label="AMAZE" sequence="41" value="AMAZE"/>
+                <element dependent_value="HONDA" inactive_on_update="false" label="BR-V" sequence="42" value="BR-V"/>
+                <element dependent_value="HONDA" inactive_on_update="false" label="BRIO" sequence="43" value="BRIO"/>
+                <element dependent_value="HONDA" inactive_on_update="false" label="CITY" sequence="44" value="CITY"/>
+                <element dependent_value="HONDA" inactive_on_update="false" label="CIVIC" sequence="45" value="CIVIC"/>
+                <element dependent_value="HONDA" inactive_on_update="false" label="CR-V" sequence="46" value="CR-V"/>
+                <element inactive_on_update="false" label="JAZZ" sequence="47" value="JAZZ"/>
+                <element dependent_value="HONDA" inactive_on_update="false" label="MOBILIO" sequence="48" value="MOBILIO"/>
+                <element dependent_value="HONDA" inactive_on_update="false" label="WR-V" sequence="49" value="WR-V"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="ACCENT" sequence="50" value="ACCENT"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="ALLAZAR" sequence="51" value="ALLAZAR"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="AURA" sequence="52" value="AURA"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="CRETA" sequence="53" value="CRETA"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="ELANTRA" sequence="54" value="ELANTRA"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="EON" sequence="55" value="EON"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="GETZ" sequence="56" value="GETZ"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="I10" sequence="57" value="I10"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="I20" sequence="58" value="I20"/>
+                <element inactive_on_update="false" label="KONAELECTRIC" sequence="59" value="KONAELECTRIC"/>
+                <element inactive_on_update="false" label="SANTAFE" sequence="60" value="SANTAFE"/>
+                <element inactive_on_update="false" label="SANTRO" sequence="61" value="SANTRO"/>
+                <element inactive_on_update="false" label="SONATA" sequence="62" value="SONATA"/>
+                <element inactive_on_update="false" label="TERRACAN" sequence="63" value="TERRACAN"/>
+                <element inactive_on_update="false" label="TOCSON" sequence="64" value="TOCSON"/>
+                <element inactive_on_update="false" label="VENUE" sequence="65" value="VENUE"/>
+                <element dependent_value="HYUNDAI" inactive_on_update="false" label="VERNA" sequence="66" value="VERNA"/>
+                <element inactive_on_update="false" label="XCENT" sequence="67" value="XCENT"/>
+                <element dependent_value="KIA" inactive_on_update="false" label="CARNIVAL" sequence="68" value="CARNIVAL"/>
+                <element dependent_value="KIA" inactive_on_update="false" label="SELTOS" sequence="69" value="SELTOS"/>
+                <element dependent_value="KIA" inactive_on_update="false" label="SONET" sequence="70" value="SONET"/>
+                <element dependent_value="MAHINDRA" inactive_on_update="false" label="ALFA" sequence="71" value="ALFA"/>
+                <element dependent_value="MAHINDRA" inactive_on_update="false" label="ALTURAS G4" sequence="72" value="ALTURAS G4"/>
+                <element dependent_value="MAHINDRA" inactive_on_update="false" label="BOLERO" sequence="73" value="BOLERO"/>
+                <element dependent_value="MAHINDRA" inactive_on_update="false" label="BOLERO PICKUP" sequence="74" value="BOLERO PICKUP"/>
+                <element dependent_value="MAHINDRA" inactive_on_update="false" label="COMMANDER" sequence="75" value="COMMANDER"/>
+                <element dependent_value="MAHINDRA" inactive_on_update="false" label="EZO" sequence="76" value="EZO"/>
+                <element inactive_on_update="false" label="EVERITO" sequence="77" value="EVERITO"/>
+                <element inactive_on_update="false" label="GENIO" sequence="78" value="GENIO"/>
+                <element inactive_on_update="false" label="GIO" sequence="79" value="GIO"/>
+                <element inactive_on_update="false" label="IMPERIO" sequence="80" value="IMPERIO"/>
+                <element inactive_on_update="false" label="JEETO" sequence="81" value="JEETO"/>
+                <element inactive_on_update="false" label="KUVIOO" sequence="82" value="KUVIOO"/>
+                <element inactive_on_update="false" label="MARAZZ0" sequence="83" value="MARAZZ0"/>
+                <element inactive_on_update="false" label="MARSHAL" sequence="84" value="MARSHAL"/>
+                <element inactive_on_update="false" label="MAXITRUCK" sequence="85" value="MAXITRUCK"/>
+                <element inactive_on_update="false" label="MAXX" sequence="86" value="MAXX"/>
+                <element inactive_on_update="false" label="MAXXIMO" sequence="87" value="MAXXIMO"/>
+                <element inactive_on_update="false" label="NUVOSPORT" sequence="88" value="NUVOSPORT"/>
+                <element inactive_on_update="false" label="QUANTO" sequence="89" value="QUANTO"/>
+                <element dependent_value="MARUTI" inactive_on_update="false" label="1000" sequence="90" value="1000"/>
+                <element dependent_value="MARUTI" inactive_on_update="false" label="800" sequence="91" value="800"/>
+                <element dependent_value="MARUTI" inactive_on_update="false" label="A-STAR" sequence="92" value="A-STAR"/>
+                <element dependent_value="MARUTI" inactive_on_update="false" label="ALTO" sequence="93" value="ALTO"/>
+                <element dependent_value="MARUTI" inactive_on_update="false" label="BALENO" sequence="94" value="BALENO"/>
+                <element dependent_value="MARUTI" inactive_on_update="false" label="CELERIO" sequence="95" value="CELERIO"/>
+                <element dependent_value="MARUTI" inactive_on_update="false" label="CIAZ" sequence="96" value="CIAZ"/>
+                <element inactive_on_update="false" label="EECO" sequence="97" value="EECO"/>
+                <element inactive_on_update="false" label="ERTIGA" sequence="98" value="ERTIGA"/>
+                <element inactive_on_update="false" label="ESTEEM" sequence="99" value="ESTEEM"/>
+                <element inactive_on_update="false" label="GRAND VITARA" sequence="100" value="GRAND VITARA"/>
+                <element inactive_on_update="false" label="GYPSY" sequence="101" value="GYPSY"/>
+                <element inactive_on_update="false" label="IGNIS" sequence="102" value="IGNIS"/>
+                <element inactive_on_update="false" label="KIZASHI" sequence="103" value="KIZASHI"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="A-CLASS" sequence="104" value="A-CLASS"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="B-CLASS" sequence="105" value="B-CLASS"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="C-CLASS" sequence="106" value="C-CLASS"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="CLA" sequence="107" value="CLA"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="CLS" sequence="108" value="CLS"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="E-CLASS" sequence="109" value="E-CLASS"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="G-CLASS" sequence="110" value="G-CLASS"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="GL-CLASS" sequence="111" value="GL-CLASS"/>
+                <element inactive_on_update="false" label="GLA-CLASS" sequence="112" value="GLA-CLASS"/>
+                <element inactive_on_update="false" label="GLC-CLASS" sequence="113" value="GLC-CLASS"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="S-CLASS" sequence="114" value="S-CLASS"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="SLK" sequence="115" value="SLK"/>
+                <element inactive_on_update="false" label="SLC" sequence="116" value="SLC"/>
+                <element dependent_value="BENZ" inactive_on_update="false" label="SLS AMG" sequence="117" value="SLS AMG"/>
+                <element dependent_value="NISSAN" inactive_on_update="false" label="EVALIA" sequence="118" value="EVALIA"/>
+                <element dependent_value="NISSAN" inactive_on_update="false" label="GT-R" sequence="119" value="GT-R"/>
+                <element dependent_value="NISSAN" inactive_on_update="false" label="KICKS" sequence="120" value="KICKS"/>
+                <element dependent_value="NISSAN" inactive_on_update="false" label="MAGNITE" sequence="121" value="MAGNITE"/>
+                <element dependent_value="NISSAN" inactive_on_update="false" label="SUNNY" sequence="122" value="SUNNY"/>
+                <element dependent_value="NISSAN" inactive_on_update="false" label="TEANA" sequence="123" value="TEANA"/>
+                <element dependent_value="NISSAN" inactive_on_update="false" label="TERAANO" sequence="124" value="TERAANO"/>
+                <element inactive_on_update="false" label="X-TRAIL" sequence="125" value="X-TRAIL"/>
+                <element dependent_value="RENAULT" inactive_on_update="false" label="CAPTOR" sequence="126" value="CAPTOR"/>
+                <element dependent_value="RENAULT" inactive_on_update="false" label="DUSTER" sequence="127" value="DUSTER"/>
+                <element dependent_value="RENAULT" inactive_on_update="false" label="FLUENCE" sequence="128" value="FLUENCE"/>
+                <element inactive_on_update="false" label="KIGER" sequence="129" value="KIGER"/>
+                <element inactive_on_update="false" label="KOLEOS" sequence="130" value="KOLEOS"/>
+                <element dependent_value="RENAULT" inactive_on_update="false" label="KWID" sequence="131" value="KWID"/>
+                <element dependent_value="RENAULT" inactive_on_update="false" label="LODGY" sequence="132" value="LODGY"/>
+                <element dependent_value="RENAULT" inactive_on_update="false" label="LOGAN" sequence="133" value="LOGAN"/>
+                <element inactive_on_update="false" label="PULSE" sequence="134" value="PULSE"/>
+                <element inactive_on_update="false" label="SCALA" sequence="135" value="SCALA"/>
+                <element inactive_on_update="false" label="TRIBER" sequence="136" value="TRIBER"/>
+                <element inactive_on_update="false" label="FABIA" sequence="137" value="FABIA"/>
+                <element inactive_on_update="false" label="KODIAQ" sequence="138" value="KODIAQ"/>
+                <element inactive_on_update="false" label="KUSHAQ" sequence="139" value="KUSHAQ"/>
+                <element inactive_on_update="false" label="LAURA" sequence="140" value="LAURA"/>
+                <element inactive_on_update="false" label="OCTAVIA" sequence="141" value="OCTAVIA"/>
+                <element inactive_on_update="false" label="RAPID" sequence="142" value="RAPID"/>
+                <element inactive_on_update="false" label="SUPERB" sequence="143" value="SUPERB"/>
+                <element inactive_on_update="false" label="YETI" sequence="144" value="YETI"/>
+                <element inactive_on_update="false" label="207" sequence="145" value="207"/>
+                <element inactive_on_update="false" label="ACE" sequence="146" value="ACE"/>
+                <element inactive_on_update="false" label="ALTROZ" sequence="147" value="ALTROZ"/>
+                <element inactive_on_update="false" label="ARIA" sequence="148" value="ARIA"/>
+                <element inactive_on_update="false" label="BOLT" sequence="149" value="BOLT"/>
+                <element inactive_on_update="false" label="HARRIER" sequence="150" value="HARRIER"/>
+                <element inactive_on_update="false" label="HEXA" sequence="151" value="HEXA"/>
+                <element inactive_on_update="false" label="INDICA" sequence="152" value="INDICA"/>
+                <element inactive_on_update="false" label="INDICA VISTA" sequence="153" value="INDICA VISTA"/>
+                <element inactive_on_update="false" label="INDIGO" sequence="154" value="INDIGO"/>
+                <element inactive_on_update="false" label="MAGIC" sequence="155" value="MAGIC"/>
+                <element inactive_on_update="false" label="MANZA" sequence="156" value="MANZA"/>
+                <element inactive_on_update="false" label="CAMRY" sequence="157" value="CAMRY"/>
+                <element inactive_on_update="false" label="COROLLA" sequence="158" value="COROLLA"/>
+                <element inactive_on_update="false" label="ETIOS'FORTUNER" sequence="159" value="ETIOS'FORTUNER"/>
+                <element inactive_on_update="false" label="GLANZA" sequence="160" value="GLANZA"/>
+                <element inactive_on_update="false" label="INNOVA" sequence="161" value="INNOVA"/>
+                <element inactive_on_update="false" label="LAND CRUISER" sequence="162" value="LAND CRUISER"/>
+                <element inactive_on_update="false" label="PRADO" sequence="163" value="PRADO"/>
+                <element inactive_on_update="false" label="PIRIUS" sequence="164" value="PIRIUS"/>
+                <element inactive_on_update="false" label="QUALIS" sequence="165" value="QUALIS"/>
+                <element inactive_on_update="false" label="URBAN CRUISER" sequence="166" value="URBAN CRUISER"/>
+                <element inactive_on_update="false" label="YARIS" sequence="167" value="YARIS"/>
+                <element inactive_on_update="false" label="AMEO" sequence="168" value="AMEO"/>
+                <element inactive_on_update="false" label="BEETLE" sequence="169" value="BEETLE"/>
+                <element inactive_on_update="false" label="JETTA" sequence="170" value="JETTA"/>
+                <element inactive_on_update="false" label="PASSAT" sequence="171" value="PASSAT"/>
+                <element inactive_on_update="false" label="PHAETON" sequence="172" value="PHAETON"/>
+                <element inactive_on_update="false" label="POLO" sequence="173" value="POLO"/>
+                <element inactive_on_update="false" label="T-ROC" sequence="174" value="T-ROC"/>
+                <element inactive_on_update="false" label="TAIGON" sequence="175" value="TAIGON"/>
+                <element inactive_on_update="false" label="TIGUAN" sequence="176" value="TIGUAN"/>
+                <element inactive_on_update="false" label="TOUAREQ" sequence="177" value="TOUAREQ"/>
+                <element inactive_on_update="false" label="VENTO" sequence="178" value="VENTO"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Form Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Payment" max_length="40" name="payment" type="string">
+            <choice>
+                <element inactive_on_update="false" label="RECEIVED" sequence="0" value="RECEIVED"/>
+            </choice>
+        </element>
+        <element label="Price" max_length="40" name="price" type="integer"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service parts" max_length="40" name="service_parts" type="string">
+            <choice>
+                <element inactive_on_update="false" label="AIR CONDITIONING" sequence="0" value="AIR CONDITIONING"/>
+                <element inactive="true" inactive_on_update="true" label="CLUTCH" sequence="0" value="CLUTCH"/>
+                <element inactive_on_update="false" label="BELT CHAIN AND ROLLERS" sequence="1" value="BELT CHAIN AND ROLLERS"/>
+                <element inactive="true" inactive_on_update="true" label="ENGINE" sequence="1" value="ENGINE"/>
+                <element inactive_on_update="false" label="BODY" sequence="2" value="BODY"/>
+                <element inactive="true" inactive_on_update="true" label="EXHAUST SYSTEM" sequence="2" value="EXHAUST SYSTEM"/>
+                <element inactive_on_update="false" label="BRAKE SYSTEM" sequence="3" value="BRAKE SYSTEM"/>
+                <element inactive="true" inactive_on_update="true" label="FUEL SUPPLY" sequence="3" value="FUEL SUPPLY"/>
+                <element inactive_on_update="false" label="MAINTENANCE SERVICE PARTS" sequence="4" value="MAINTENANCE SERVICE PARTS"/>
+                <element inactive="true" inactive_on_update="true" label="STEERING" sequence="4" value="STEERING"/>
+                <element inactive="true" inactive_on_update="true" label="SUSPENSION" sequence="5" value="SUSPENSION"/>
+                <element inactive="true" inactive_on_update="true" label="WHEELS" sequence="6" value="WHEELS"/>
+                <element inactive="true" inactive_on_update="true" label="TRANSMISSION" sequence="7" value="TRANSMISSION"/>
+                <element inactive="true" inactive_on_update="true" label="MAINTAINENCE SERVICE PARTS" sequence="8" value="MAINTAINENCE SERVICE PARTS"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Payment received" sequence="0" value="Payment received"/>
+                <element inactive_on_update="false" label="payment pending" sequence="1" value="payment pending"/>
+            </choice>
+        </element>
+        <element label="Total Price" max_length="40" name="total_price" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Transaction" max_length="40" name="transaction" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CASH" sequence="0" value="CASH"/>
+                <element inactive_on_update="false" label="ONLINE PAYMENT" sequence="1" value="ONLINE PAYMENT"/>
+            </choice>
+        </element>
+    </element>
+</database>

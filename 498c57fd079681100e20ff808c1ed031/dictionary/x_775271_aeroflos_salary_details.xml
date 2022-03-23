@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Salary Details" max_length="40" name="x_775271_aeroflos_salary_details" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Account no:" max_length="40" name="account_no" type="string"/>
+        <element label="salary" max_length="40" name="annual_salary" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Bank Name" max_length="40" name="bank_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="employee_department" dependent_on_field="employee_department" label="Daily salary" max_length="40" name="daily_salary" type="string" use_dependent_field="true">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-TBDTARGET-x_775271_aeroflos_salary_details" sequence="0" value="-TBDTARGET-x_775271_aeroflos_salary_details"/>
+                <element dependent_value="Accountants" inactive_on_update="false" label="600" sequence="0" value="600"/>
+                <element dependent_value="Sales department" inactive_on_update="false" label="550" sequence="1" value="550"/>
+                <element dependent_value="HR department" inactive_on_update="false" label="750" sequence="2" value="750"/>
+                <element dependent_value="Mechanical" inactive_on_update="false" label="650" sequence="3" value="650"/>
+            </choice>
+        </element>
+        <element label="Daily wages" max_length="40" name="daily_wages" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Days in this Month" max_length="40" name="days_in_this_month" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="11" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="12" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="13" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="14" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="15" sequence="14" value="15"/>
+                <element inactive_on_update="false" label="16" sequence="15" value="16"/>
+                <element inactive_on_update="false" label="17" sequence="16" value="17"/>
+                <element inactive_on_update="false" label="18" sequence="17" value="18"/>
+                <element inactive_on_update="false" label="19" sequence="18" value="19"/>
+                <element inactive_on_update="false" label="20" sequence="19" value="20"/>
+                <element inactive_on_update="false" label="21" sequence="20" value="21"/>
+                <element inactive_on_update="false" label="22" sequence="21" value="22"/>
+                <element inactive_on_update="false" label="23" sequence="22" value="23"/>
+                <element inactive_on_update="false" label="24" sequence="23" value="24"/>
+                <element inactive_on_update="false" label="25" sequence="24" value="25"/>
+                <element inactive_on_update="false" label="26" sequence="25" value="26"/>
+                <element inactive_on_update="false" label="27" sequence="26" value="27"/>
+                <element inactive_on_update="false" label="28" sequence="27" value="28"/>
+                <element inactive_on_update="false" label="29" sequence="28" value="29"/>
+                <element inactive_on_update="false" label="30" sequence="29" value="30"/>
+                <element inactive_on_update="false" label="31" sequence="30" value="31"/>
+            </choice>
+        </element>
+        <element label="Days on leave" max_length="40" name="days_on_leave" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Days present" max_length="40" name="days_present" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="11" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="12" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="13" sequence="12" value="13"/>
+                <element inactive_on_update="false" label="14" sequence="13" value="14"/>
+                <element inactive_on_update="false" label="15" sequence="14" value="15"/>
+                <element inactive_on_update="false" label="16" sequence="15" value="16"/>
+                <element inactive_on_update="false" label="17" sequence="16" value="17"/>
+                <element inactive_on_update="false" label="18" sequence="17" value="18"/>
+                <element inactive_on_update="false" label="19" sequence="18" value="19"/>
+                <element inactive_on_update="false" label="20" sequence="19" value="20"/>
+                <element inactive_on_update="false" label="21" sequence="20" value="21"/>
+                <element inactive_on_update="false" label="22" sequence="21" value="22"/>
+                <element inactive_on_update="false" label="23" sequence="22" value="23"/>
+                <element inactive_on_update="false" label="24" sequence="23" value="24"/>
+                <element inactive_on_update="false" label="25" sequence="24" value="25"/>
+                <element inactive_on_update="false" label="26" sequence="25" value="26"/>
+                <element inactive_on_update="false" label="27" sequence="26" value="27"/>
+                <element inactive_on_update="false" label="28" sequence="27" value="28"/>
+                <element inactive_on_update="false" label="29" sequence="28" value="29"/>
+                <element inactive_on_update="false" label="30" sequence="29" value="30"/>
+                <element inactive_on_update="false" label="31" sequence="30" value="31"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Employee department" max_length="40" name="employee_department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Accountants" sequence="0" value="Accountants"/>
+                <element inactive_on_update="false" label="Mechanical" sequence="1" value="Mechanical"/>
+                <element inactive_on_update="false" label="Sales department" sequence="2" value="Sales department"/>
+                <element inactive_on_update="false" label="HR department" sequence="3" value="HR department"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Employee name" max_length="40" name="employee_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee signature" max_length="40" name="employee_signature" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Employment Term" max_length="40" name="employment_term" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-TBDTARGET-x_775271_aeroflos_salary_details" sequence="0" value="-TBDTARGET-x_775271_aeroflos_salary_details"/>
+                <element inactive_on_update="false" label="Full time" sequence="0" value="Full time"/>
+                <element inactive="true" inactive_on_update="true" label="Casual" sequence="1" value="Casual"/>
+                <element inactive_on_update="false" label="Part Time" sequence="1" value="Part Time"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Emplo Name" max_length="32" name="emplo_name" reference="x_775271_aeroflos_employee_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="IFSC" max_length="40" name="ifsc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manager" max_length="40" name="manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Month" max_length="40" name="month" type="string">
+            <choice>
+                <element inactive_on_update="false" label="January" sequence="0" value="January"/>
+                <element inactive_on_update="false" label="February" sequence="1" value="February"/>
+                <element inactive_on_update="false" label="March" sequence="2" value="March"/>
+                <element inactive_on_update="false" label="April" sequence="3" value="April"/>
+                <element inactive_on_update="false" label="May" sequence="4" value="May"/>
+                <element inactive_on_update="false" label="June" sequence="5" value="June"/>
+                <element inactive_on_update="false" label="July" sequence="6" value="July"/>
+                <element inactive_on_update="false" label="August" sequence="7" value="August"/>
+                <element inactive_on_update="false" label="September" sequence="8" value="September"/>
+                <element inactive_on_update="false" label="October" sequence="9" value="October"/>
+                <element inactive_on_update="false" label="November" sequence="10" value="November"/>
+                <element inactive_on_update="false" label="December" sequence="11" value="December"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Form Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="employee_department" dependent_on_field="employee_department" label="PartTime salary" max_length="40" name="parttime_salary" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Accountants" inactive_on_update="false" label="250" sequence="0" value="250"/>
+                <element dependent_value="Sales department" inactive_on_update="false" label="200" sequence="1" value="200"/>
+                <element dependent_value="Mechanical" inactive_on_update="false" label="300" sequence="2" value="300"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="working_shift" dependent_on_field="working_shift" label="shift amount" max_length="40" name="shift_amount" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Split shift" inactive_on_update="false" label="400" sequence="0" value="400"/>
+                <element dependent_value="First shift" inactive_on_update="false" label="200" sequence="1" value="200"/>
+                <element dependent_value="Second shift" inactive_on_update="false" label="300" sequence="2" value="300"/>
+                <element dependent_value="Third Shift" inactive_on_update="false" label="500" sequence="3" value="500"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Days worked" max_length="40" name="working_days" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="working Shift" max_length="40" name="working_shift" type="string">
+            <choice>
+                <element inactive_on_update="false" label="First shift" sequence="0" value="First shift"/>
+                <element inactive_on_update="false" label="Second shift" sequence="1" value="Second shift"/>
+                <element inactive_on_update="false" label="Third shift" sequence="2" value="Third shift"/>
+                <element inactive_on_update="false" label="Split shift" sequence="3" value="Split shift"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="emplo_name"/>
+        </index>
+    </element>
+</database>

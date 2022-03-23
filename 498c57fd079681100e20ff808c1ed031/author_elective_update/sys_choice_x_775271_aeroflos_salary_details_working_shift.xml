@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="working_shift" table="x_775271_aeroflos_salary_details" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>working_shift</element>
+            <name>x_775271_aeroflos_salary_details</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 04:59:44</sys_created_on>
+            <sys_id>f80b254e075e81100e20ff808c1ed048</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>working_shift</sys_name>
+            <sys_package display_value="AeroFlow automobiles" source="x_775271_aeroflos">498c57fd079681100e20ff808c1ed031</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</sys_scope>
+            <sys_update_name>sys_choice_x_775271_aeroflos_salary_details_working_shift</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:59:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>working_shift</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>First shift</label>
+            <language>en</language>
+            <name>x_775271_aeroflos_salary_details</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 04:59:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>700b254e075e81100e20ff808c1ed048</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:59:44</sys_updated_on>
+            <value>First shift</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>working_shift</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Second shift</label>
+            <language>en</language>
+            <name>x_775271_aeroflos_salary_details</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 04:59:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>380b254e075e81100e20ff808c1ed049</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:59:44</sys_updated_on>
+            <value>Second shift</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>working_shift</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Third shift</label>
+            <language>en</language>
+            <name>x_775271_aeroflos_salary_details</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 04:59:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f80b254e075e81100e20ff808c1ed04a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:59:44</sys_updated_on>
+            <value>Third shift</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>working_shift</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Split shift</label>
+            <language>en</language>
+            <name>x_775271_aeroflos_salary_details</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-19 04:59:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc0b254e075e81100e20ff808c1ed04b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-19 04:59:44</sys_updated_on>
+            <value>Split shift</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

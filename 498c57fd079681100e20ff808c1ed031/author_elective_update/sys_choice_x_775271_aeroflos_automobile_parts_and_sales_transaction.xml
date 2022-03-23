@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="transaction" table="x_775271_aeroflos_automobile_parts_and_sales" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>transaction</element>
+            <name>x_775271_aeroflos_automobile_parts_and_sales</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 20:44:09</sys_created_on>
+            <sys_id>dd99fb79071a81100e20ff808c1ed0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>transaction</sys_name>
+            <sys_package display_value="AeroFlow automobiles" source="x_775271_aeroflos">498c57fd079681100e20ff808c1ed031</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</sys_scope>
+            <sys_update_name>sys_choice_x_775271_aeroflos_automobile_parts_and_sales_transaction</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 20:44:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>transaction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CASH</label>
+            <language>en</language>
+            <name>x_775271_aeroflos_automobile_parts_and_sales</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 20:44:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5599fb79071a81100e20ff808c1ed0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 20:44:09</sys_updated_on>
+            <value>CASH</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>transaction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ONLINE PAYMENT</label>
+            <language>en</language>
+            <name>x_775271_aeroflos_automobile_parts_and_sales</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-18 20:44:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d199fb79071a81100e20ff808c1ed0c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-18 20:44:09</sys_updated_on>
+            <value>ONLINE PAYMENT</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

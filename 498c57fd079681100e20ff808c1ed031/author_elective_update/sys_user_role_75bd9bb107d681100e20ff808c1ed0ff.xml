@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_775271_aeroflos.insurance agent</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_775271_aeroflos.insurance agent</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 18:42:24</sys_created_on>
+        <sys_id>75bd9bb107d681100e20ff808c1ed0ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_775271_aeroflos.insurance agent</sys_name>
+        <sys_package display_value="AeroFlow automobiles" source="x_775271_aeroflos">498c57fd079681100e20ff808c1ed031</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</sys_scope>
+        <sys_update_name>sys_user_role_75bd9bb107d681100e20ff808c1ed0ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 18:42:24</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</application>
+        <file_path/>
+        <instance_id>c15368a9db2720109a4dcac505961952</instance_id>
+        <instance_name>dev111897</instance_name>
+        <name>sys_user_role_75bd9bb107d681100e20ff808c1ed0ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_775271_aeroflos.insurance agent</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>x_775271_aeroflos.insurance agent</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-18 18:42:24</sys_created_on><sys_id>75bd9bb107d681100e20ff808c1ed0ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_775271_aeroflos.insurance agent</sys_name><sys_package display_value="AeroFlow automobiles" source="x_775271_aeroflos">498c57fd079681100e20ff808c1ed031</sys_package><sys_policy/><sys_scope display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</sys_scope><sys_update_name>sys_user_role_75bd9bb107d681100e20ff808c1ed0ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-18 18:42:24</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>959177585</payload_hash>
+        <record_name>x_775271_aeroflos.insurance agent</record_name>
+        <reverted_from/>
+        <source>858c57fd079681100e20ff808c1ed033</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-18 18:42:24</sys_created_on>
+        <sys_id>75bddbb107d681100e20ff808c1ed05a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f9e5682f10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-18 18:42:24</sys_updated_on>
+        <type>Role</type>
+        <update_guid>bdbddbb1ecd6811030d39f9ef922c559</update_guid>
+        <update_guid_history>bdbddbb1ecd6811030d39f9ef922c559:959177585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_775271_aeroflos.insurance agent">7d231b2a071201100e20ff808c1ed0b8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-21 01:51:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>4e54bc2d99af4e88b2f38bba13640824</sys_id>
+        <sys_metadata>75bd9bb107d681100e20ff808c1ed0ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_775271_aeroflos.insurance agent</sys_name>
+        <sys_package display_value="AeroFlow automobiles" source="x_775271_aeroflos">498c57fd079681100e20ff808c1ed031</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AeroFlow automobiles">498c57fd079681100e20ff808c1ed031</sys_scope>
+        <sys_scope_delete display_value="">27e8e30ea2024cccaefb46a3b6417a39</sys_scope_delete>
+        <sys_update_name>sys_user_role_75bd9bb107d681100e20ff808c1ed0ff</sys_update_name>
+        <sys_update_version display_value="sys_user_role_75bd9bb107d681100e20ff808c1ed0ff">75bddbb107d681100e20ff808c1ed05a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 01:51:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
